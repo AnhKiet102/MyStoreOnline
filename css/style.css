@@ -243,14 +243,43 @@ body {
 			
          
 
-}
-#wrapper .main .right .col2{
-    width: 220px;
-    height: 500px;
-  
-    margin-left: 480px;
 
+/* ========= COL 2 ========== */
+#wrapper .main .right .col2{
+	width: 220px;
+	margin-left: 480px;
+	height: 500px;
 }
+
+/*--------- Category ------------------- */
+	#wrapper .main .right .col2 #box-category{}
+	
+		#wrapper .main .right .col2 #box-category .content{}
+		
+			#wrapper .main .right .col2 #box-category .content ul{}
+			
+				#wrapper .main .right .col2 #box-category .content ul li{
+					border-bottom: 1px solid #d2d2d2;
+					padding: 3px;
+				}
+					#wrapper .main .right .col2 #box-category .content ul li.active{
+						background: url(../images/arrow.png) right center no-repeat;
+					}
+					
+					#wrapper .main .right .col2 #box-category .content ul li a{
+						color: #2a0055
+					}
+				
+					#wrapper .main .right .col2 #box-category .content ul li a:hover{
+						color: #00C;
+						
+					}
+	
+	#wrapper .main .right .col2 .banner{
+		margin-top: 20px;
+		
+	}
+	
 /*----------------------Box----------*/
 
 .box{
