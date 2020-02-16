@@ -5,9 +5,10 @@ body {
 #wrapper{
     background: url(../images/background.jpg)left top repeat;
     width: 940px;
-    height: 1000px;
+ 
     margin:  0px auto;
     padding: 0 60px;
+    padding-bottom: 10px;
 }
 .clr{
     clear: both;
@@ -112,7 +113,7 @@ body {
         width: 700px;
         margin-left: 240px;
 }
-/*--------------- content left-------------------*/
+/*--------------- content left---============================================----------------*/
 #wrapper .main .left #box-login{
     margin-bottom: 18px;
 }
@@ -126,11 +127,67 @@ body {
         #wrapper .main .left .box.content .row a:hover{
             text-decoration: underline;
         }
-
-        #wrapper .main .left #box-search .content{
+        
+    #wrapper .main .left #box-search .content{
             height: 80px;
             min-height: 80px;
         }
+
+        #box-search #search-form .row span.button span{
+            position: relative;
+        }
+        #box-search #search-form .row span.button span img{
+            position: absolute;
+            top: 6px;
+            right: 6px;
+        }
+        #box-search #search-form .row span.button span img:hover{
+            cursor: pointer;
+            opacity: 0.6;
+            filter: alpha(opacity=60);
+        }
+
+/*=======================Box-Special==========================*/
+#wrapper .main .left #box-special .content{
+   
+}
+
+#wrapper .main .left #box-special .content .special-product{
+    height: 121px;
+    border-bottom: 1px solid #d2d2d2;
+}
+#wrapper .main .left #box-special .content .special-product .img{
+    height: 121px;
+    line-height: 121px;
+    float: left;
+    width: 80px;
+
+}
+    #wrapper .main .left #box-special .content .special-product .img img{
+        vertical-align: middle;
+        
+    }
+    #wrapper .main .left #box-special .content .special-product .info{
+
+        margin-left: 80px;
+        padding: 27px 0px;
+    }
+    #wrapper .main .left #box-special .content .special-product .info p{
+        margin-bottom: 27px;
+
+    }
+    #wrapper .main .left #box-special .content .special-product .info span{
+        font-weight: bold;
+
+    }
+
+
+
+
+
+
+
+
 
 /*------------CONTENT RIGHT*/
 #wrapper .main .right .slide{
@@ -193,5 +250,19 @@ body {
     width: 1px;
     height: 45px;
     background-color: #d2d2d2;
+
+}
+.line-h-220{
+    width: 220px;
+    height: 1px;
+    background-color: #d2d2d2;
+    margin: 30px 0px;
+
+}
+.line-h-700{
+    width: 700px;
+    height: 1px;
+    background-color: #d2d2d2;
+    margin: 30px 0px;
 
 }
