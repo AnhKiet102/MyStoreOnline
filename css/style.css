@@ -1,0 +1,197 @@
+body {
+    background: url(../images/background-body.jpg) left top repeat;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+#wrapper{
+    background: url(../images/background.jpg)left top repeat;
+    width: 940px;
+    height: 1000px;
+    margin:  0px auto;
+    padding: 0 60px;
+}
+.clr{
+    clear: both;
+}
+/*  -------------------------------Header  ----------------------------------         */
+#wrapper #header .top{
+    height: 130px;
+  
+}
+
+        #wrapper #header .top .logo{
+            float: left;
+            margin-left: 17px;
+            height: 130px;
+            line-height: 130px;
+
+        }
+        
+        #wrapper #header .top .logo img {
+            vertical-align: middle;
+        }
+
+        #wrapper #header .top .currency{
+            float: right;
+            margin: 83px 0px 27px 0px;
+
+        }
+            #wrapper #header .top .currency > span {
+                font-weight: bold;
+            }
+/*---------------------------Menu----------------*/
+#wrapper #header .menu{
+    background: url(../images/menu-left.jpg) left top no-repeat;
+   
+
+}
+        #wrapper #header .menu .right{
+            background: url(../images/menu-right.jpg)right top no-repeat;
+        }
+
+            #wrapper #header .menu .right .content{
+                background: url(../images/menu-content.jpg)left top repeat-x;
+                height: 45px;
+                margin: 0px 12px;
+            }
+
+            #wrapper #header .menu ul{
+
+                position: relative;
+            }
+            #wrapper #header .menu ul li {
+                float: left;
+            }
+
+            #wrapper #header .menu ul li a{
+                display: block;
+                padding: 0px 22px;
+                font: bold 14px/45px Arial, Helvetica,sans-serif;
+                color:#000043;
+                text-transform: uppercase;
+                text-decoration: none;
+                
+            }
+            #wrapper #header .menu ul li a:hover{
+                color: #363;
+			    text-decoration: underline;
+
+            }
+            #wrapper #header .menu ul li.cart{
+                position: absolute;
+                top :0px;
+                right: 25px;
+
+
+            }
+            #wrapper #header .menu ul li .cart span{
+                font-weight: bold;
+            }
+            #wrapper #header .menu ul li.cart a{
+                display: inline;
+                padding: 0px;
+                font:12px/45px, Arial,Helvetica,sans-serif;
+                color:#7bb183;
+
+            }
+            #wrapper #header .menu ul li.cart a:hover{
+                color:#000;
+                font-weight: bold;
+
+            }
+/*----------------CONTENT-----------------------*/
+#wrapper .main{
+   
+    margin-top: 18px;
+}
+    #wrapper .main .left{
+        width: 220px;
+        float: left;
+    
+    }
+    #wrapper .main .right{
+        width: 700px;
+        margin-left: 240px;
+}
+/*--------------- content left-------------------*/
+#wrapper .main .left #box-login{
+    margin-bottom: 18px;
+}
+        #wrapper .main .left #box-login .content{
+                height: 240px;
+                min-height: 240px;
+        }
+        #wrapper .main .left .box.content .row a{
+            color: #7c7c7c;
+        }
+        #wrapper .main .left .box.content .row a:hover{
+            text-decoration: underline;
+        }
+
+        #wrapper .main .left #box-search .content{
+            height: 80px;
+            min-height: 80px;
+        }
+
+/*------------CONTENT RIGHT*/
+#wrapper .main .right .slide{
+    width: 700px;
+    height: 386px;
+}
+
+/*0999999999999999999999---box-----------*/
+
+.box{
+    font: 12px Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+	.box .title{
+		height: 43px;
+		line-height: 43px;
+		font-size: 18px;
+	}
+	
+	.box .header{
+		background: url(../images/box-tl.png) left top no-repeat;
+	}
+	
+		.box .header .tr{
+			background: url(../images/box-tr.png) right top no-repeat;
+		}
+		
+		.box .header .tc{
+			background-color: #ffffff;
+			height: 12px;
+			margin: 0 12px;
+			border-top: 1px solid #e1e1e1;
+		}
+
+	.box .content{
+		background-color: #ffffff;
+		padding: 0 12px;
+		margin: -1px 0px;
+		border: 1px solid #e1e1e1;
+		border-width: 0px 1px;
+	}
+
+	.box .footer{	
+		background: url(../images/box-bl.png) left bottom no-repeat;
+	}
+	
+		.box .footer .br{
+			background: url(../images/box-br.png) right bottom no-repeat;
+		}
+		
+		.box .footer .bc{
+			background-color: #ffffff;
+			height: 12px;
+			margin: 0 12px;
+			border-bottom: 1px solid #e1e1e1;
+		}
+		
+/*-------------------LINE-----------------*/
+.line-w-45{
+    width: 1px;
+    height: 45px;
+    background-color: #d2d2d2;
+
+}
